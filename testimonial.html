@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <link rel="stylesheet" type="text/css" href="textimonial.css">
+</head>
+<body>
+      <div class="secondary-bg">
+            <h1 class= "container mt-5 text" ><b>Testimonial Form<b></h1>
+              <div class="row p-5 text-center align-items-center">
+            
+                        <form class="col-lg-6 col-md-6 col-sm-12">
+                        <label for="fname"> Name </label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Email Id</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Email Id">
+                        <label for="lname">Phone Number</label>
+                        <input type="text" id="lname" name="lastname">
+                        <label for="subject">Your Testimonial</label>
+                        <textarea id="subject" name="subject" placeholder="Write your Message here.." style="height:150px"></textarea>
+                        
+                         <label>Photo<br><input type="file" id="myFile" name="filename"></label> 
+                        
+                  
+                        <br><br><label for="myCheck">I want to be Anonymous:</label>
+                        <input type="checkbox" id="myCheck" onclick="myFunction()"><br>
+
+                                 <br> <input type="submit" class="text-center">
+                        <p id="text" style="display:none"></p><br>
+                          
+
+                        <script>
+                           function myFunction() {
+                           var checkBox = document.getElementById("myCheck");
+                           var text = document.getElementById("text");
+                           if (checkBox.checked == true){
+                                  text.style.display = "block";
+                                  } 
+                                  else {
+                                  text.style.display = "none";
+                                  }
+                               }
+</script>
+ </form>
+</div>
+</div>
+</body>
+</html>

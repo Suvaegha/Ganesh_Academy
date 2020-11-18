@@ -1,0 +1,377 @@
+/*body{
+	background: #F0F7F4;
+	color: #99E1D9;
+	
+}*/
+
+.container-fluid{
+	background: url(welcome-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+	color:  #fff;
+ height: 579px;
+}
+.navbar{
+	z-index: 99;
+  
+    background: black;
+
+}
+.container-fluid .main-image{
+	  width: 60%;
+    
+    max-height: 65%;
+    
+}
+.navbar-dark .navbar-brand {
+    
+    font-size: 35px;
+}
+/*.bg-dark {
+    !important;
+}*/
+.navbar .navbar-nav .nav-link{
+	color: white;
+  font-size: 20px;
+  transition: 0.2s linear;
+
+}
+.heading{
+  color: black;
+}
+/*.navbar .nav-link:after{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: white;
+   height:2px;
+   width: 100%;
+}*/
+.navbar .nav-link:hover {
+  border-bottom: 3px solid #fe563a;
+  
+}
+
+.navbar .nav-link .active {
+  border-bottom: 3px solid #fe563a;
+  
+}
+.intro-text{
+	font-size: 20px;
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5%;
+}
+ 
+/*.secondary-bg{
+	background: #32292F;
+}
+.secondary-color{
+	color: #32292F;
+}*/
+
+
+.image{
+	width: 100%;
+	height: 200px;
+}
+.btn{
+    display: block;
+}
+.btn-color{
+  background: -webkit-linear-gradient(left, #fe563a 0%,#e43a78 100%);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 15px;
+}
+    /* Shadow Effect*/
+
+.polaroid {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 15px 25px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+
+  
+      /* Zooming Effect*/
+.zoom {
+transition: transform .2s;
+/*margin: 0 auto;
+margin-left: 98px;*/
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.03); 
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03); 
+}
+.tex{
+	text-align: left;
+	
+	text-align: center;
+	margin-top:2rem;
+}
+.font{
+  font-weight: 300;
+}
+.icon{
+      transform: translate(116px);
+}
+.rotation {
+  width: 30px;
+  transition: width 2s, height 2s, transform 2s;
+}
+.rotation:hover {
+  width: 30px;
+  height: 30px;
+  transform: rotate(360deg);
+  color:white;
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 38px;
+  max-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: 	 #476b6b;
+  color:white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+ background: -webkit-linear-gradient(left, #fe563a 0%,#e43a78 100%) !important;
+  color: white;
+}
+/*form*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background: -webkit-linear-gradient(left, #fe563a 0%,#e43a78 100%) !important;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a509;
+}
+
+
+/*image grid*/
+.header {
+  text-align: center;
+  /*padding: 32px;*/
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin-left: 0px;
+  margin-right: 0px;
+  /*padding: 0 4px;*/
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 33.33%; /* IE10 */
+  flex: 33.33%;
+  max-width: 33.33%;
+  /*padding: 0 4px;*/
+}
+
+.column img {
+  /*margin-top: 8px;*/
+  /*margin-left: 80px;*/
+  vertical-align: middle;
+  width: 100%;
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.kanada{
+  height: 350px;
+}
+.image-box{
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: -webkit-linear-gradient(left, #fe563a 0%,#e43a78 100%) !important;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.image-box:hover .overlay {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .container-fluid{
+    background-size: 100%; 
+
+  }
+  .intro-text{
+    top: 10%;
+    right: 5%;
+  }
+}
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.mode {
+
+  display: flex;
+  float:right;
+  margin: 0;
+  transition: background 0.2s linear;
+}
+.mode-text{
+  margin-right: 15px;
+  margin: 11px;
+}
+
+body.dark {
+  background: #292C35;
+  color: white;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  background-color: #111;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
+  margin: 11px;
+}
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+
+.fa-moon {
+  color: #f1c40f;
+}
+
+.fa-sun {
+  color: #f39c12;
+}
+.ft{
+  text-align: center;
+}

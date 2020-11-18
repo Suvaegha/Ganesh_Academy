@@ -1,0 +1,49 @@
+h1{
+  text-align: center;
+  margin-top: 79px;
+  font-size: 38px;
+ }
+.image{
+    width: 200px;
+    margin-left: 91px;
+    max-height: 230px;
+    height: 193px;
+ 
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 38px;
+  max-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background:    #476b6b;
+  color:white;
+}
+hr{
+  width: 88%;
+    border-top: 4px solid white;
+    margin-left: 0;
+}
+.text{
+  margin-left:  -51px;
+}
+.row{
+  margin-top: 80px;
+  background-image: url(testimonial-bg.jpg);
+  color: white;
+}
+a:link, a:visited {
+  background-color: #000051;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  float: right;
+}
+
+a:hover, a:active {
+  background-color: grey;
+}
